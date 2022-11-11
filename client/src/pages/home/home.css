@@ -1,0 +1,17 @@
+#mainbg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    -webkit-background-size:cover ;
+    background-attachment: fixed;
+  
+    /* background-image: url("https://unsplash.com/photos/h0Vxgz5tyXA"); */
+/* opacity: .9; */
+}
+#bg{
+    background: #b7e9d3;
+    
+min-height: 500px;
+   
+}

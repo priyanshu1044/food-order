@@ -5,7 +5,21 @@ import Usernav from '../../components/Usernav';
 import { Container,Row,Col } from 'react-bootstrap';
 import {Card,CardMedia,CardContent,Typography,CardActions,Box} from '@mui/material'
 // import { Link } from 'react-router-dom';
+
 import { Rating } from 'react-simple-star-rating';
+// import Alert from 'react-popup-alert'
+// const [alert, setAlert] = React.useState({
+//   type: 'error',
+//   text: 'This is a alert message',
+//   show: false
+// })
+// function onShowAlert(type) {
+//   setAlert({
+//     type: type,
+//     text: 'Demo alert',
+//     show:true
+// })
+// }
 function Ratingpage() {
  
 const [reviews,setReviews]=useState("")
@@ -93,7 +107,7 @@ size={25} allowHalfIcon={false}/>
         <textarea style={{marginTop:"10px"}} className="reviewTextBox" maxLength="250" placeholder="Write a review..." onChange={handleInputChange}
          name="review" value={reviews}></textarea>
          <br/><br/>
-<Button variant="secondary" type="submit" size="lg" onClick={()=>{console.log("add"+product._id);giveRate(product._id)}} >
+<Button variant="secondary" type="submit" size="lg" onClick={()=>{alert("thank you for order!!")}} >
     Submit
   </Button>
         </Typography>

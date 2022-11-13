@@ -34,7 +34,7 @@ navigate(`/showuseritems/${id}`)
       
       <Navbar.Brand href="/home"><h2>FOODEE</h2></Navbar.Brand>
       <Nav className="d-flex">
-      <Nav.Link ><h4> <Dropdown>
+      {/* <Nav.Link ><h4> <Dropdown>
             <Dropdown.Toggle variant="dark" id="dropdown-basic" >
               Category
             </Dropdown.Toggle>
@@ -48,7 +48,7 @@ navigate(`/showuseritems/${id}`)
                           })}
                            </Dropdown.Menu>
           </Dropdown> </h4>
-          </Nav.Link>
+          </Nav.Link> */}
         <Nav.Link href="/addtocart"><h4>CART</h4></Nav.Link>
         <Nav.Link href="/aboutus"><h4>ABOUT US </h4></Nav.Link> 
         {/* <Nav.Link href="/addtocart"> 
